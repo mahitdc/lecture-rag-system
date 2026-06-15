@@ -20,11 +20,10 @@ audio/
 
 # Generated outputs
 transcripts/
-faiss_index/
 
-# FAISS databases
-faiss_RAG_AUDIO/
-faiss_What is Retrieval-Augmented Generation (RAG)_/
+# --- FAISS DATABASES & CACHES ---
+# This wildcard dynamically catches faiss_index, faiss_RAG_AUDIO, and all faiss_tmp folders
+faiss_*/
 
 # Notebooks
 notebooks/
